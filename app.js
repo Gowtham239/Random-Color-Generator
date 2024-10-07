@@ -22,7 +22,7 @@ const clickBtn = document.getElementById("click");
 clickBtn.addEventListener("click", function() {
     let colorCode = "#";
     for(let i=0; i<6; i++) {
-        let randomIndex = Math.floor(Math.random() * 16);
+        let randomIndex = Math.floor(Math.random() * arr.length);
         colorCode += arr[randomIndex]
     }
     document.body.style.backgroundColor = colorCode;   
