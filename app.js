@@ -27,5 +27,5 @@ clickBtn.addEventListener("click", function() {
     }
     document.body.style.backgroundColor = colorCode;   
     colorCodeEl.textContent = colorCode;
-    colorCodeEl.style.color = colorCode;
+    colorCodeEl.style.color = "coral";
 });
